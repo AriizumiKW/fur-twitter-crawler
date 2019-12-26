@@ -8,6 +8,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import QIcon
 
 
 class Ui_Form_Input(object):
@@ -37,10 +38,12 @@ class Ui_Form_Input(object):
 
         self.retranslateUi(Form_Input)
         QtCore.QMetaObject.connectSlotsByName(Form_Input)
+        #self.lineEdit_edit_name.set
 
     def retranslateUi(self, Form_Input):
         _translate = QtCore.QCoreApplication.translate
-        Form_Input.setWindowTitle(_translate("Form_Input", "Form"))
+        Form_Input.setWindowTitle(_translate("Form_Input", "FurTwiiCrawler"))
+        Form_Input.setWindowIcon(QIcon("./horse.ico"))
         self.pushButton_i_can.setText(_translate("Form_Input", "我可以"))
         self.pushButton_i_cant.setText(_translate("Form_Input", "我不行"))
         self.label.setText(_translate("Form_Input", "用户ID"))

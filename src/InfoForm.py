@@ -8,6 +8,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import QIcon
 
 
 class Ui_Form_instruction(object):
@@ -23,7 +24,8 @@ class Ui_Form_instruction(object):
 
     def retranslateUi(self, Form_instruction):
         _translate = QtCore.QCoreApplication.translate
-        Form_instruction.setWindowTitle(_translate("Form_instruction", "Form"))
+        Form_instruction.setWindowTitle(_translate("Form_instruction", "FurTwiiCrawler"))
+        Form_instruction.setWindowIcon(QIcon("./horse.ico"))
         self.textBrowser_instruction.setHtml(_translate("Form_instruction", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"

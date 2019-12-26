@@ -25,11 +25,11 @@ class BlackListModel:
             self.updateBlackList()
 
     def banUser(self, screen_name):
-        if screen_name not in self.black_list:
+        if screen_name not in self.black_list.keys():
             self.black_list[screen_name] = "banned"
 
     def unbanUser(self, screen_name):
-        if screen_name in self.black_list:
+        if screen_name in self.black_list.keys():
             self.black_list.pop(screen_name)
 
     def clearBlackList(self):
