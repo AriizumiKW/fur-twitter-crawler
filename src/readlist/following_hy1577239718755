@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.1//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+        <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel="canonical" href="https://twitter.com/dark_chuan/following">
+    <meta name="twitter-redirect-url" content="twitter://user?screen_name=dark_chuan"/>
+    <meta name="twitter-redirect-srcs" content="{&quot;pwreset-iphone&quot;:true,&quot;android&quot;:true,&quot;email&quot;:true}"/>
+    <link href="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/favicon.ico" rel="icon" type="image/x-icon" />
+    <title>Twitter</title>
+      <link href="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/assets/as.css" inline="false" media="screen" rel="stylesheet" type="text/css" />
+    <script src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/javascripts/framebust.js" type="text/javascript"></script>
+    <script src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/javascripts/serviceworker.js" type="text/javascript" async defer></script>
+    <meta name="google-site-verification" content="V0yIS0Ec_o3Ii9KThrCoMCkwTYMMJ_JYx_RSaGhFYvw" />
+    <meta name="deciders" content="{&quot;m2_mmw_scribe_get_url&quot;:true}" />
+  </head>
+  <body class="images nojs users-page users-user-following-page">
+    <div id="container">
+      
+      
+        <div id="brand_bar">
+  <table id="top">
+    <tr>
+      <td class="left">
+        <a href="/" class="brandmark">
+              <span class="imgsprite_larry_28px_gif" height="28"  title="Twitter"></span>
+
+          
+        </a>
+      </td>
+      <td class="right">
+            <img alt="|" class="divider" height="28" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/brandbar_divider.gif" />
+          <a class="search" href="#search">
+                <span class="imgsprite_search_28px_gif" height="28"  title="搜索"></span>
+
+            
+          </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+            <table id="global_nav" class="images">
+  <tr>
+    <td class="home">
+      <a href="/" title="主页">
+          
+          <img alt="主页" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/nav_home.gif">
+        
+      </a>
+    </td>
+    <td class="connect">
+      <a href="/i/connect" title="连接">
+          
+          <img alt="连接" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/nav_connect.gif">
+        
+      </a>
+    </td>
+    <td class="discover">
+      <a href="/trends" title="趋势">
+          
+          <img alt="趋势" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/nav_discover.gif">
+        
+      </a>
+    </td>
+    <td class="me selected">
+      <a href="/account" title="我">
+          <img alt="我" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/nav_me_selected.gif">
+          
+        
+      </a>
+    </td>
+    <td class="tweet">
+      <a href="/compose/tweet" title="推文">
+        <img alt="推文" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/nav_tweet.gif">
+        
+      </a>
+    </td>
+  </tr>
+</table>
+
+      
+      
+        <div class="toast ">
+    <div class="message">
+    
+你的设备可能支持更新版本的 Twitter，你想试试吗？      <form action="/i/js_router" method="post">
+          <span class="m2-auth-token">
+    <input name="authenticity_token" type="hidden" value="58aafc7bcccb360178ef362a6d44511d54c17ef3"/>
+  </span>
+        <button type="submit">是</button>
+      </form>
+      <form action=/i/dismiss_settings method="post">
+          <span class="m2-auth-token">
+    <input name="authenticity_token" type="hidden" value="58aafc7bcccb360178ef362a6d44511d54c17ef3"/>
+  </span>
+        <input type="hidden" name="d" value="160"/>
+        <input type="hidden" name="return_url" value="/dark_chuan/following"/>
+        <button type="submit">暂时不用</button>
+      </form>
+    </div>
+  </div>
+
+      <div id="main_content">
+            <div class="profile">
+        <div class="user-header">
+  <table>
+    <tr>
+        <td rowspan="2" class="avatar">
+          <img alt="大川" src="https://pbs.twimg.com/profile_images/1192052292524085248/kz2vaODP_normal.jpg"/>
+        </td>
+      <td class="info">
+        <a href="/dark_chuan">
+          大川<span class="username">@dark_chuan</span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="info"><span class="count">605</span>正在关注</td>
+    </tr>
+  </table>
+</div>
+
+          <div class="user-list">
+              <table class="user-item">
+
+  <tr>
+      <td rowspan="2" class="avatar">
+        <img class="profile-image" src="https://pbs.twimg.com/profile_images/1140606959688663041/XJ1aWbTN_normal.jpg" alt="Zero Cat" />
+      </td>
+    <td class="info fifty screenname">
+      <a name="CuteZeroCat"/>
+        <a href="/CuteZeroCat?p=s" data-scribe-action="profile_click"><strong class="fullname">Zero Cat</strong></a>
+
+      
+    </td>
+
+    <td class="follow-button-container right fifty" rowspan="2">
+            <form action="/CuteZeroCat/unfollow" method="get">
+      
+        <span class="w-button-common w-button-unfollow">
+          <input alt="正在关注" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/followchecked.gif" type="image" />
+        </span>
+    </form>
+
+    </td>
+
+  </tr>
+
+  <tr>
+    <td class="info">
+        <a href="/CuteZeroCat?p=s"><span class="username"><span>@</span>CuteZeroCat</span></a>
+
+
+    </td>
+  </tr>
+</table>
+
+              <table class="user-item">
+
+  <tr>
+      <td rowspan="2" class="avatar">
+        <img class="profile-image" src="https://pbs.twimg.com/profile_images/838316719194005504/veGM9YMD_normal.jpg" alt="Takemoto 竹本" />
+      </td>
+    <td class="info fifty screenname">
+      <a name="arashi_takemoto"/>
+        <a href="/arashi_takemoto?p=s" data-scribe-action="profile_click"><strong class="fullname">Takemoto 竹本</strong></a>
+
+      
+    </td>
+
+    <td class="follow-button-container right fifty" rowspan="2">
+            <form action="/arashi_takemoto/unfollow" method="get">
+      
+        <span class="w-button-common w-button-unfollow">
+          <input alt="正在关注" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/followchecked.gif" type="image" />
+        </span>
+    </form>
+
+    </td>
+
+  </tr>
+
+  <tr>
+    <td class="info">
+        <a href="/arashi_takemoto?p=s"><span class="username"><span>@</span>arashi_takemoto</span></a>
+
+
+    </td>
+  </tr>
+</table>
+
+              <table class="user-item">
+
+  <tr>
+      <td rowspan="2" class="avatar">
+        <img class="profile-image" src="https://pbs.twimg.com/profile_images/530413953323503616/tn4LPOhW_normal.jpeg" alt="Carl Manneh" />
+      </td>
+    <td class="info fifty screenname">
+      <a name="carlmanneh"/>
+        <a href="/carlmanneh?p=s" data-scribe-action="profile_click"><strong class="fullname">Carl Manneh</strong></a>
+
+      
+    </td>
+
+    <td class="follow-button-container right fifty" rowspan="2">
+            <form action="/carlmanneh/unfollow" method="get">
+      
+        <span class="w-button-common w-button-unfollow">
+          <input alt="正在关注" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/followchecked.gif" type="image" />
+        </span>
+    </form>
+
+    </td>
+
+  </tr>
+
+  <tr>
+    <td class="info">
+        <a href="/carlmanneh?p=s"><span class="username"><span>@</span>carlmanneh</span></a>
+
+
+    </td>
+  </tr>
+</table>
+
+              <table class="user-item">
+
+  <tr>
+      <td rowspan="2" class="avatar">
+        <img class="profile-image" src="https://pbs.twimg.com/profile_images/1092823690226614273/RGUopLub_normal.jpg" alt="Leonard Gram" />
+      </td>
+    <td class="info fifty screenname">
+      <a name="xlson"/>
+        <a href="/xlson?p=s" data-scribe-action="profile_click"><strong class="fullname">Leonard Gram</strong></a>
+
+      
+    </td>
+
+    <td class="follow-button-container right fifty" rowspan="2">
+            <form action="/xlson/unfollow" method="get">
+      
+        <span class="w-button-common w-button-unfollow">
+          <input alt="正在关注" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/followchecked.gif" type="image" />
+        </span>
+    </form>
+
+    </td>
+
+  </tr>
+
+  <tr>
+    <td class="info">
+        <a href="/xlson?p=s"><span class="username"><span>@</span>xlson</span></a>
+
+
+    </td>
+  </tr>
+</table>
+
+              <table class="user-item">
+
+  <tr>
+      <td rowspan="2" class="avatar">
+        <img class="profile-image" src="https://pbs.twimg.com/profile_images/612662589701488640/r4kLIeCw_normal.jpg" alt="pod2g" />
+      </td>
+    <td class="info fifty screenname">
+      <a name="pod2g"/>
+        <a href="/pod2g?p=s" data-scribe-action="profile_click"><strong class="fullname">pod2g</strong></a>
+
+      
+    </td>
+
+    <td class="follow-button-container right fifty" rowspan="2">
+            <form action="/pod2g/unfollow" method="get">
+      
+        <span class="w-button-common w-button-unfollow">
+          <input alt="正在关注" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/followchecked.gif" type="image" />
+        </span>
+    </form>
+
+    </td>
+
+  </tr>
+
+  <tr>
+    <td class="info">
+        <a href="/pod2g?p=s"><span class="username"><span>@</span>pod2g</span></a>
+
+
+    </td>
+  </tr>
+</table>
+
+          </div>
+    </div>
+
+      </div>
+      <div id="footer">
+    <div class="search-fields">
+    <div class="title">
+      <label for="q">输入话题,@用户名 或全名</label>
+    </div>
+    <form action="/search" class="search-input" method="get">
+    <table>
+      <tr>
+        <td class="value" id="search"><div><input id="q" name="q" type="text" value=""/></div></td>
+        <td class="button">
+          <input type="hidden" name="s" value="typd" />
+          <input type="image" src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/images/sprites/magnifying_glass.gif" alt="搜索"/>
+        </td>
+      </tr>
+    </table>
+    </form>
+</div>
+
+    <table class="global-actions">
+      <tr>
+        <td><a href="/settings">设置</a></td>
+        <td><a href="https://support.twitter.com/"> 帮助</a></td>
+      </tr>
+    </table>
+    <div class="view-actions"><a href="#top">返回顶端</a> &middot; <a href="/settings/profile_images">不显示图片</a></div>
+</div>
+
+    </div>
+      <script id="scribe-configuration" type="application/json">{"page":"following","user_id":"2257214995"}</script>
+      <script src="https://ma.twimg.com/twitter-mobile/a8491f04da4e54be98cff3a86c58f23a770c26bd/assets/base.js" type="text/javascript"></script>
+      <img src="/i/anonymize?data=%5B%7B%22integration%22%3A%22ga%22%2C%22ref%22%3A%22https%3A%5C%2F%5C%2Fmobile.twitter.com%5C%2Fdark_chuan%5C%2Ffollowing%3Fcursor%3D1606953827000727291%22%2C%22mobileMetricsToken%22%3A%22157723944775865643%22%7D%5D" height="0" width="0" style="opacity: 0">
+
+  </body>
+</html>
