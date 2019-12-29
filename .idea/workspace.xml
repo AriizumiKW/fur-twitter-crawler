@@ -154,9 +154,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.MainForm" />
+        <item itemvalue="Python.Main" />
         <item itemvalue="Python.FollowListModel" />
         <item itemvalue="Python.FollowListFeaturePack" />
-        <item itemvalue="Python.Main" />
         <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
@@ -175,6 +175,7 @@
       <workItem from="1577305469393" duration="13509000" />
       <workItem from="1577322087159" duration="3634000" />
       <workItem from="1577377968726" duration="9274000" />
+      <workItem from="1577633290742" duration="4503000" />
     </task>
     <servers />
   </component>
@@ -186,7 +187,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -195,10 +198,10 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fur_twitter_crawler$BlackListModel.coverage" NAME="BlackListModel Coverage Results" MODIFIED="1577316011804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/fur_twitter_crawler$FollowListFeaturePack.coverage" NAME="FollowListFeaturePack Coverage Results" MODIFIED="1577384666026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/fur_twitter_crawler$MainForm.coverage" NAME="MainForm Coverage Results" MODIFIED="1577386910499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/fur_twitter_crawler$MainForm.coverage" NAME="MainForm Coverage Results" MODIFIED="1577637759727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/fur_twitter_crawler$test.coverage" NAME="test Coverage Results" MODIFIED="1577313858064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/readlist" />
     <SUITE FILE_PATH="coverage/fur_twitter_crawler$Test.coverage" NAME="Test Coverage Results" MODIFIED="1577380666132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/fur_twitter_crawler$FollowListModel.coverage" NAME="FollowListModel Coverage Results" MODIFIED="1577385209362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/fur_twitter_crawler$Main.coverage" NAME="Main Coverage Results" MODIFIED="1577382594808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/fur_twitter_crawler$Main.coverage" NAME="Main Coverage Results" MODIFIED="1577635063956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

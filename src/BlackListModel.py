@@ -7,10 +7,10 @@ class BlackListModel:
 
     def __init__(self):
         self.black_list = {}
-        self.initList()
+        self.readList()
         pass
 
-    def initList(self):
+    def readList(self):
         path = "./setting"
         if not os.path.exists(path):
             os.mkdir(path)
@@ -22,21 +22,26 @@ class BlackListModel:
                 print("Empty File")
                 pass
         else:
-            self.updateBlackList()
+            self.writeBlackList()
 
     def banUser(self, screen_name):
         if screen_name not in self.black_list.keys():
             self.black_list[screen_name] = "banned"
+            self.writeBlackList()
 
     def unbanUser(self, screen_name):
         if screen_name in self.black_list.keys():
             self.black_list.pop(screen_name)
+            self.writeBlackList()
+            return True # if succeed
+        else:
+            return False
 
     def clearBlackList(self):
         self.black_list.clear()
-        self.updateBlackList()
+        self.writeBlackList()
 
-    def updateBlackList(self):
+    def writeBlackList(self):
         path = "./setting"
         if not os.path.exists(path):
             os.mkdir(path)

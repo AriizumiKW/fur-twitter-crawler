@@ -12,6 +12,7 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QTableView, QMessageBox
 from src import InfoForm, InputForm
 from src import FollowTableViewmodel as fviewmodel
+from src import BlackListViewmodel as blviewmodel
 from src import InputFormViewmodel as inputviewmodel
 from src import FollowListModel as flist
 from src import BlackListModel as blist
@@ -134,6 +135,9 @@ class Ui_MainWindow(object):
         self.pushButton_pause_now = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_pause_now.setGeometry(QtCore.QRect(335, 410, 81, 31))
         self.pushButton_pause_now.setObjectName("pushButton_pause_now")
+        self.pushButton_black_refresh = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_black_refresh.setGeometry(QtCore.QRect(640, 274, 51, 31))
+        self.pushButton_black_refresh.setObjectName("pushButton_black_refresh")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
@@ -201,6 +205,7 @@ class Ui_MainWindow(object):
         self.actiond_annouce.setText(_translate("MainWindow", "声明"))
         self.pushButton_start_now.setText(_translate("MainWindow", "开始抓图"))
         self.pushButton_pause_now.setText(_translate("MainWindow", "暂停抓图"))
+        self.pushButton_black_refresh.setText(_translate("MainWindow", "刷新"))
         
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
@@ -217,10 +222,13 @@ if __name__ == "__main__":
     infoform_ui.setupUi(infoForm)
     the_fo_list_model = flist.FollowingListModel()
     the_ban_list_model = blist.BlackListModel()
-    fvm = fviewmodel.FollowingTableViewmodel(the_fo_list_model,ui.tableView_fo,inputForm,ui.pushButton_fo_updateList,
+    inputvm = inputviewmodel.InputFormViewmodel(the_fo_list_model, the_ban_list_model, inputform_ui, inputForm, ui)
+    fvm = fviewmodel.FollowingTableViewmodel(the_fo_list_model,ui.tableView_fo,inputvm,inputForm,ui.pushButton_fo_updateList,
                                              ui.pushButton_fo_manuallyAdd,ui.pushButton_fo_manuallyDel,
                                              ui.pushButton_fo_clearAll,MainWindow)
-    inputvm = inputviewmodel.InputFormViewmodel(the_fo_list_model,inputform_ui,inputForm,fvm,ui)
+    blm = blviewmodel.BlackListViewmodel(the_ban_list_model,ui.tableView_black,inputvm,inputForm,ui.pushButton_black_refresh,
+                                         ui.pushButton_black_manuallyAdd,ui.pushButton_black_manuallyDel,ui.pushButton_black_clearAll,
+                                         MainWindow)
     #inputform_ui.pushButton_i_can.clicked.connect(inputvm.on_clicked_i_can)
     #ui.pushButton_fo_updateList.clicked.connect(fvm.on_clickUpdate)
     #inputform_ui.pushButton_i_cant.clicked.connect(inputvm.on_clicked_i_cant)
